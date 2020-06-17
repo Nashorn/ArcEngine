@@ -5,11 +5,11 @@ BUILDCONFIG = {
     //     "libs"
     // ],
     
-    Input : "src/applications/NotificationsApp/index.js",
+    Input : "src/applications/FpsTest/index.js",
     
     Output : {
-        SourcePath:"src/applications/NotificationsApp/index.src.js",
-        CompressedPath: "src/applications/NotificationsApp/index.min.js"
+        SourcePath:"src/applications/FpsTest/index.src.js",
+        CompressedPath: "src/applications/FpsTest/index.min.js"
     },
 
     LoadsAsync : true,
@@ -27,7 +27,7 @@ BUILDCONFIG = {
     Verbos:true,
 
     Prefabs : {
-        Enabled : true,
+        Enabled : false,
         Components : [
             "applications.NotificationsApp",
             "core.ui.NotificationsToggleSwitch"
