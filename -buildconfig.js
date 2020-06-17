@@ -12,10 +12,7 @@ BUILDCONFIG = {
 
     Prefabs : {
         Enabled : false,
-        Components : [
-            "applications.NotificationsApp",
-            "core.ui.NotificationsToggleSwitch"
-        ]
+        Components : []
     }
 };
 module.exports = BUILDCONFIG;
