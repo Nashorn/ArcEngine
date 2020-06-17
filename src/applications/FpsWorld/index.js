@@ -1,8 +1,8 @@
-import '/src/applications/FpsTest/misc/circle.js';
+import '/src/applications/FpsWorld/misc/circle.js';
 import! 'core.ui.Planet';
 
 namespace `applications` (
-    class FpsTest extends World {
+    class FpsWorld extends World {
         constructor(element){
             super(element);
         }
