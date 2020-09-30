@@ -1,0 +1,12 @@
+/*
+    :host is the root element itself.
+    Example, the <about-page></about-page> tag.
+*/
+
+:host {
+	
+}
+
+:host h1 {
+    color:blue;
+}
