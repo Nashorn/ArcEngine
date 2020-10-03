@@ -1,10 +1,9 @@
 BUILDCONFIG = {
-
-    Input : "src/display/screens/SpaDemo/index.js",
+    Input : "src/applications/NotificationsApp/index.js",
     
     Output : {
-        SourcePath:"src/display/screens/SpaDemo/index.src.js",
-        CompressedPath: "src/display/screens/SpaDemo/index.min.js"
+        SourcePath:"src/applications/NotificationsApp/index.src.js",
+        CompressedPath: "src/applications/NotificationsApp/index.min.js"
     },
 
     LoadsAsync : true,
@@ -20,21 +19,9 @@ BUILDCONFIG = {
     Prefabs : {
         Enabled : true,
         Components : [
-            "display.views.Home"
+            "applications.NotificationsApp",
+            "core.ui.NotificationsToggleSwitch"
         ]
     }
 };
-
-/*Languages
-The Closure Compiler supports the following languages:
-    ECMASCRIPT3, ECMASCRIPT5 and ECMASCRIPT5_STRICT
-    ECMASCRIPT6 and ECMASCRIPT6_STRICT
-    ECMASCRIPT6_TYPED (experimental)
-    ECMASCRIPT_2017 (experimental)
-
-
-CompilationLevel(compilationLevel)
-    WHITESPACE_ONLY, SIMPLE, ADVANCED
-*/
-
 module.exports = BUILDCONFIG;
